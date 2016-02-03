@@ -11,5 +11,5 @@ let start _ =
 
   Js._false
 
-let _ =
+let () =
   Html.window##onload <- Html.handler start
