@@ -1,0 +1,4 @@
+PKG js_of_ocaml js_of_ocaml.syntax webaudio
+S src
+
+B _build/src

@@ -1,0 +1,15 @@
+OASISFormat: 0.4
+OCamlVersion: >= 4.01
+Name:        ocaml-webaudio-example
+Version:     0.1.0
+Authors:     John Else
+License:     ISC
+Synopsis:    Example program using the OCaml webaudio bindings
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+
+Executable webaudio_example
+  CompiledObject:     byte
+  Path:               src
+  MainIs:             webaudio_example.ml
+  BuildDepends:       js_of_ocaml, js_of_ocaml.syntax, webaudio
