@@ -11,7 +11,7 @@ let start _ =
     let oscillator = context##createOscillator () in
     oscillator##frequency##value <- 200.0;
     oscillator##_type <- (Js.string "sine");
-    oscillator##connect (context##destination);
+    oscillator##connect ((context##destination :> WebAudio.audioNode Js.t));
 
     debug "about to start oscillator";
     oscillator##start ();
