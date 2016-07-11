@@ -12,4 +12,4 @@ Executable webaudio_example
   CompiledObject:     byte
   Path:               src
   MainIs:             webaudio_example.ml
-  BuildDepends:       js_of_ocaml, js_of_ocaml.syntax, webaudio
+  BuildDepends:       js_of_ocaml, js_of_ocaml.ppx, webaudio
